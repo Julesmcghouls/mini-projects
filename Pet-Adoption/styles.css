@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background for overall layout */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #f1c40f; /* Fun, bright color */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* About Section */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Featured Pets Section */
+#featured-pets {
+    padding: 20px;
+}
+
+#featured-pets h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pet-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pet-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pet-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#contact ul li {
+    margin: 5px 0;
+}
