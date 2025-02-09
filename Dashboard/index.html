@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Garden Sounds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="text-center py-4">
+    <h1 class="fw-bold text-uppercase">Love Garden</h1>
+    <img src="/lg/application/themes/lovegarden/img/LG-Logo.svg" alt="Love Garden Logo" class="logo">
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+    <!-- Hours Section -->
+    <section id="hours" class="mb-5">
+      <h2 class="text-center">Operation Hours + Buying Policy</h2>
+      <p class="text-center">Monday to Saturday: 10 AM - 8 PM | Sunday: 11 AM - 7 PM</p>
+      <p class="text-center">Call or email us to set up an appointment or ask questions about the items you want to sell!</p>
+    </section>
+
+    <!-- Recent Arrivals Section -->
+    <section id="recent-arrivals" class="mb-5">
+      <h2 class="text-center">Buy Stuff From Love Garden</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/lg/application/files/8316/2213/0018/Smaller_Nay.jpg" alt="Gift Certificates" class="img-fluid">
+          <p class="text-center"><a href="https://lovegardensounds.bigcartel.com/product/love-garden-gift-certificate">Purchase Gift Certificates Online</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="/lg/application/files/3515/8708/2739/Discogs_Square.jpg" alt="Discogs" class="img-fluid">
+          <p class="text-center"><a href="https://www.discogs.com/seller/lovegardensounds/profile">Shop on Discogs.com</a></p>
+        </div>
+        <div class="col-md-4">
+          <img src="/lg/application/files/1315/8708/3078/LG-Crew-pink-grey.jpg" alt="Gear" class="img-fluid">
+          <p class="text-center"><a href="https://lovegardensounds.bigcartel.com/">Purchase Love Garden Gear Online</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="text-center mb-5">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:lovegardensounds@gmail.com">lovegardensounds@gmail.com</a></p>
+      <p>Phone: <a href="tel:17858431551">(785)-843-1551</a></p>
+      <p>Address: 822 Massachusetts St., Lawrence, KS 66044</p>
+    </section>
+
+    <!-- Mailing List -->
+    <section id="mailing-list" class="text-center">
+      <h2>Join Our Mailing List</h2>
+      <form action="https://lovegardensounds.us3.list-manage.com/subscribe/post" method="POST" target="_blank">
+        <input type="email" name="EMAIL" placeholder="Enter your email" class="form-control w-50 mx-auto my-3">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-4">
+    <p>&copy; 2024 Love Garden Sounds</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Example: Add a parallax effect
+    document.addEventListener('scroll', () => {
+      const layers = document.querySelectorAll('.parallax-layer');
+      layers.forEach((layer, index) => {
+        const speed = 0.2 * (index + 1);
+        layer.style.transform = `translateY(${window.scrollY * speed}px)`;
+      });
+    });
+  </script>
+</body>
+</html>
